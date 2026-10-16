@@ -1,0 +1,40 @@
+# Strings for the Oak intro. One per line:  label: text
+# \n = line break, \l = scroll, \p = new page. {PLAYER} / {RIVAL} insert names.
+gText_OakIntro_HelloThere: Hello there!\nIt's so very nice to meet you!\pWelcome to the world of Pokémon!\p
+gText_OakIntro_Introduce: My name is Rowan.\pHowever, everyone just calls me\nthe Pokémon Professor.\pBefore I go any further, is this\nyour first adventure?\pIf you need advice, I'm certainly\ncapable of giving it.\p
+gText_OakIntro_InfoControls: CONTROL INFO
+gText_OakIntro_InfoAdventure: ADVENTURE INFO
+gText_OakIntro_InfoNone: NO INFO NEEDED
+gText_OakIntro_Yes: YES
+gText_OakIntro_No: NO
+gText_OakIntro_Pokeball: This world is widely inhabited by\ncreatures known as Pokémon.\pHere, I have a Poké Ball.\p
+gText_OakIntro_FirstSpeech: We humans live alongside Pokémon\nas friends.\pAt times we play together,\nand at other times we\lwork together.\pSome people use their Pokémon\nto battle and develop\lcloser bonds with them.\pWhat do I do?\pI conduct research so that we may\nlearn more about Pokémon.\p
+gText_OakIntro_TellMe: Now, why don't you tell me\na little bit about yourself?\p
+gText_OakIntro_BoyOrGirl: Are you a boy?\nOr are you a girl?\p
+gText_OakIntro_ConfirmBoy: All right, so you're a boy?
+gText_OakIntro_ConfirmGirl: All right, so you're a girl?
+gText_OakIntro_AskName: Tell me, what is your name?\p
+gText_OakIntro_ConfirmName: Your name is {PLAYER}?
+gText_OakIntro_IntroduceRival: OK…\nSo, you're {PLAYER}?\pA fine name that is!\pNow, this boy here…\nI believe he's your friend.\p
+gText_OakIntro_AskRivalName: What might his name be?\p
+gText_OakIntro_ConfirmRivalName: {RIVAL}, is it?\nThat's your friend's name?\p
+gText_OakIntro_FinalSpeech: All right, {PLAYER}, the time\nhas come.\pYour very own tale of grand\nadventure is about to unfold.\pOn your journey, you will meet\ncountless Pokémon and people.\pI'm sure that along the way you will\ndiscover many things, perhaps even\lsomething about yourself.\pNow, go on, leap into the world of\nPokémon!\p
+
+# Menu entries
+gText_OakIntro_RivalCustom: New Name!
+# Default names. Lists live in src/oak_intro_name.c.
+gText_OakIntro_BoyName1: Ash
+gText_OakIntro_BoyName2: Man
+gText_OakIntro_BoyName3: Van
+gText_OakIntro_BoyName4: Ban
+gText_OakIntro_BoyName5: Dan
+gText_OakIntro_GirlName1: Ash
+gText_OakIntro_GirlName2: Man
+gText_OakIntro_GirlName3: Van
+gText_OakIntro_GirlName4: Ban
+gText_OakIntro_GirlName5: Dan
+gText_OakIntro_RivalName1: Barry
+gText_OakIntro_RivalName2: Nolan
+gText_OakIntro_RivalName3: Roy
+gText_OakIntro_RivalName4: Gavin
+gText_OakIntro_RivalName5: Diamond

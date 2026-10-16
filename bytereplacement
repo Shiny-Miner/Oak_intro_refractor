@@ -1,0 +1,2 @@
+# <rom address> <hex bytes>      raw patches applied after insertion (CFRU-style)
+# Original project note: to stop the blue flash at the start, change the bytes at 08460568 to 00 00.

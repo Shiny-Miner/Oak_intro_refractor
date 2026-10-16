@@ -1,0 +1,4 @@
+# <rom address> <function> [low register 0-7, default 1]
+# Redirects the vanilla "Welcome to the world of Pokemon" task (FireRed US 1.0) to the new intro.
+# r0 (the task id) is untouched.
+0812F7C0 OakIntro_Hook 1

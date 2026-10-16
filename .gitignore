@@ -1,0 +1,6 @@
+build/
+linker.ld
+offsets.ini
+*.gba
+*.sav
+__pycache__/
