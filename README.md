@@ -2,8 +2,11 @@
 
 A rewrite of OakTutorial into Sinnoh region's Roman's intro. Made by touched and mordern rewritten by me(Shiny Miner).
 
-<video src="./intro.mp4" controls width="640">
-</video>
+
+
+https://github.com/user-attachments/assets/797bb76f-4072-402c-b776-782074cf778f
+
+
 
 ```
 BPRE.ld            every ROM function/variable the code uses, named once
