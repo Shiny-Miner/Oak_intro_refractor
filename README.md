@@ -45,16 +45,3 @@ Same build as CFRU, use
 | `oak_intro_actor.c` | 64x128 characters (two stacked sprites), swapping the centre character |
 | `oak_intro_ui.c` | message box, multichoice menus, sprite fade, screen fades |
 
-## What changed on purpose
-
-* Fade/slide logic exists once (`OakUI_Blend_Step`, `Actor_SlideTo`) instead of ~6 copies.
-* State lives in a heap block (`struct OakIntro`), not at a fixed RAM address shared by several structs.
-  Only the block's *pointer* is parked at `OAK_STATE_PTR_ADDR` so it survives the naming screen.
-* After the naming screen the BG tilemap buffers are allocated by the intro; the old code borrowed the vanilla
-  Oak speech's buffers via `0x0203B108`.
-* The hooked entry runs inside the vanilla Oak speech task like the old build did (no video reset).
-  `CB2_OakIntro_Setup` rebuilds the video only when returning from the naming screen.
-* Fixes: girls got the boy default names; the rival speech showed the "introduce" text and the farewell on top of
-  each other; the rival menu was hidden every frame while sliding; the naming screen was opened with the
-  fade check inverted.
-
