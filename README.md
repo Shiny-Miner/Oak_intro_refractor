@@ -1,9 +1,11 @@
 # Oak_intro_refractor
 
 A rewrite of OakTutorial into Sinnoh region's Roman's intro. Made by touched and mordern rewritten by me(Shiny Miner).
-
-
 <video controls src="intro.mp4" title="Title"></video>
+
+
+
+
 
 
 ```
